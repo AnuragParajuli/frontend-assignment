@@ -1,0 +1,57 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Home Page */
+
+/* Search Page */
+.search-page {
+  text-align: center;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.btn-primary {
+  margin-left: 10px;
+}
+
+/* Product Details Page */
+
+/* Navigation */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #f9d10a;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer p {
+  margin: 0;
+}
