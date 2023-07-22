@@ -12,9 +12,19 @@ const App = () => {
       <Navbar />
       <div className="container mt-4">
         <Routes>
-          <Route path="/" exact element={<HomePage />} />
-          <Route path="/search" element={<SearchPage />} />
-          <Route path="/product/:id" element={<ProductDetailsPage />} />
+          <Route
+            path="https://beautiful-syrniki-8ab46e.netlify.app/"
+            exact
+            element={<HomePage />}
+          />
+          <Route
+            path="https://beautiful-syrniki-8ab46e.netlify.app/search"
+            element={<SearchPage />}
+          />
+          <Route
+            path="https://beautiful-syrniki-8ab46e.netlify.app/product/:id"
+            element={<ProductDetailsPage />}
+          />
         </Routes>
       </div>
     </BrowserRouter>

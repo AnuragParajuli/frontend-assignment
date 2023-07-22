@@ -12,6 +12,32 @@ body {
 }
 
 /* Home Page */
+.home-page {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
 
 /* Search Page */
 .search-page {
@@ -27,6 +53,34 @@ body {
 }
 
 /* Product Details Page */
+.product-details-page {
+  text-align: center;
+}
+
+.product-details-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.product-details-card img {
+  width: 200px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.product-details-card h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-details-card p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
 
 /* Navigation */
 .navbar {
